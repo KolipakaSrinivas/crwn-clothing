@@ -1,9 +1,13 @@
-
+import React from 'react'
 import './App.scss';
+
+import Homepage from './Homepage.component'
 
 function App() {
   return (
     <div className="App">
+      <Homepage />
+      
       
     </div>
   );
