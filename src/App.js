@@ -1,15 +1,21 @@
 import React from 'react'
+import { Routes, Route } from 'react-router-dom';
 import './App.scss';
+
+
 
 import Homepage from './pages/Homepage.component'
 
 function App() {
   return (
     <div className="App">
-      <Homepage />
-      
-      
-    </div>
+       <Homepage /> 
+      <Routes>
+        <Route />
+     
+        
+      </Routes>
+      </div>
   );
 }
 
