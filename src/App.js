@@ -1,20 +1,20 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom';
 import './App.scss';
-import Shoppage from './pages/shope/Shop.component';
+import { Routes,Route } from 'react-router-dom';
 
 
 
-import Homepage from './pages/Homepage.component'
+
+import Homepage from './pages/HomePage/Homepage.component'
+import ShopPage from './pages/shopePage/Shop.component';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route  path='/' element={<Homepage /> }/>
-        <Route path='/shop' element={<Shoppage />}/>
-     
-        
+        <Route path='/' element={<Homepage/>} />
+        <Route path='/shop' element={<ShopPage/>} />
+
       </Routes>
       </div>
   );
